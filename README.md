@@ -35,3 +35,21 @@
     > > window.addEvenetListener("resize", handleResize);
     > > ```
     > > handleResize를 할 때, 뒤에 ()를 붙이지 않는다. ()를 붙이면 함수가 바로 호출되어 버린다.
+
+- If else -Function practice
+    > 비교를 할 때는 ===을 쓴다.
+    > 
+    > rgb 형식 사용시에 반점 뒤에는 반드시 띄어쓰기 한칸을 해야 한다. ex)rgb(52, 73, 94)
+    > 
+    > 그리고 JS에서는 rgb형식을 쓰자! (OTHER COLOR 같이 저렇게 쓰면 비교 구문에서동작이 안된다.)
+    > 이벤트의 종류가 궁금하다면, MDN을 방문하자! 꼭!(formerly Mozilla Developer Network)
+    >
+    > ```
+    > const currentColor = title.style.color
+    > const OTHER_COLOR = "#7f9c8d"
+    > if(currentColor === BASE_COLOR){
+    >   tytle.style.color = OTHER_COLOR;
+    > }else{
+    >   title.style.color = BASE_COLOR;
+    >  }
+    > ```
