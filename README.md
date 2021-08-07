@@ -76,3 +76,13 @@
     > }
     > h1.addEvenetListener("click", handleTitleClick);
     > ```
+- LOGIN(4.0~)
+    > html에서 form은 보통 submit 이벤트로 제출을 하게 된다.
+    > submit 이벤트가 발생할 때 JS는 onLoginSubmit function을 호출하고, 이 때 event object를 argument로 주고 있다.
+    > event object를 통해 기본 동작이 실행되는 것을 막아준다.
+    > ```
+    > function onLoginSubmit(event){
+    > event.preventDefault();
+    > console.log(tomato);
+    > }
+    > ```
