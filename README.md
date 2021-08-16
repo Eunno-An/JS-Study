@@ -86,3 +86,5 @@
     > console.log(tomato);
     > }
     > ```
+    > event.preventDefault() 는 브라우저의 기본 활동을 막는다. 브라우저가 submit 할 때 하는 활동을 막고, 그 기본 동작 대신 우리가
+    > 원하는 동작을 하게 만들 수 있다.
